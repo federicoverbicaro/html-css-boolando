@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid lime; */
+    border: 1px solid lime;
 }
 
-header{
+header {
     background-color: #ff6901;
     height: 50px;
 }
 
 /* contenitore dopo header */
-.contenitore-testata{
+.contenitore-testata {
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -19,25 +19,80 @@ header{
     align-items: end;
 }
 
-.menu1 ul li{
+.menu1 ul li {
     display: flex;
-    display: inline;    
-    
+    display: inline;
+
 }
-.menu1 ul li a{
+
+.menu1 ul li a {
     color: #fff;
     text-decoration: none;
 }
-.logo{
+
+.logo {
     display: flex;
     align-self: center;
     height: 30px;
 }
-.logo img{
+
+.logo img {
     margin-top: 10px;
 }
-.icon-link{
+
+.icon-link {
     padding: 3px;
     fill: #fff;
 }
 
+/* contenitore del main */
+main {
+    height: auto;
+}
+
+.contenitore-carte {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 75%;
+    /* ricordarsi di metterlo a 50%!!!*/
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+
+.contenitore-carte2 {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+}
+
+.cards img {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 300px;
+}
+
+#cuore
+ {
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+.webp-1 {
+    height: auto;
+}
