@@ -2,4 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid lime; */
 }
+
+header{
+    background-color: #ff6901;
+    height: 50px;
+}
+
+/* contenitore dopo header */
+.contenitore-testata{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.menu1 ul li{
+    display: flex;
+    display: inline;    
+    
+}
+.menu1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-self: center;
+    height: 30px;
+}
+.logo img{
+    margin-top: 10px;
+}
+.icon-link{
+    padding: 3px;
+    fill: #fff;
+}
+
